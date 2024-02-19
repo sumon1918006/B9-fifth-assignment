@@ -50,7 +50,7 @@ function cupon() {
   // get Grand - total price
   let totalGrandPriceElement = document.getElementById("grand-total-price");
 
-  // find cupon section
+  // find cupon section & discount count
   const cuponSection = document.getElementById("cupon-section");
 
   if (CuponCode == "NEW15") {

@@ -6,7 +6,7 @@ function scrolling() {
   targetSction.scrollIntoView({ behavior: "smooth" });
 }
 
-// decrease total seat
+// decrease total seat number
 function totalSeatDecrease(elementId) {
   let totalSeatDecrease = document.getElementById(elementId);
   let totalSeatText = totalSeatDecrease.innerText;
@@ -15,7 +15,7 @@ function totalSeatDecrease(elementId) {
   totalSeatDecrease.innerText = totalSeatNumber;
 }
 
-// increase select seat
+// increase select seat number
 function increaseSelectSeat(elementId) {
   let totalSelectSeat = document.getElementById(elementId);
   let totalSelectSeatNumber = parseInt(totalSelectSeat.innerText);
@@ -79,4 +79,3 @@ function grandTotalPrice(grandPrices, totalPrices) {
   const totalGrandPriceElement = document.getElementById(grandPrices);
   totalGrandPriceElement.innerText = totalPrice;
 }
-
