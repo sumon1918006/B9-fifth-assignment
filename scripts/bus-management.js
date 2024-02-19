@@ -34,8 +34,6 @@ function selectSeat(event) {
 
     // increase select seat
     increaseSelectSeat("select-seat-number");
-
-
   }
 }
 

@@ -36,7 +36,7 @@ function innerChildNumber(elementId) {
   return numberOfElement;
 }
 
-// append new child
+// append new child in col2
 function appendNewChild(elementId, elementValue) {
   const setNewValueSection = document.getElementById(elementId);
   // add new element
