@@ -6,6 +6,23 @@ function scrolling() {
   targetSction.scrollIntoView({ behavior: "smooth" });
 }
 
+// decrease total seat
+function totalSeatDecrease(elementId) {
+  let totalSeatDecrease = document.getElementById(elementId);
+  let totalSeatText = totalSeatDecrease.innerText;
+  let totalSeatNumber = parseInt(totalSeatText);
+  totalSeatNumber = totalSeatNumber - 1;
+  totalSeatDecrease.innerText = totalSeatNumber;
+}
+
+// increase select seat
+function increaseSelectSeat(elementId) {
+  let totalSelectSeat = document.getElementById(elementId);
+  let totalSelectSeatNumber = parseInt(totalSelectSeat.innerText);
+  totalSelectSeatNumber = totalSelectSeatNumber + 1;
+  totalSelectSeat.innerText = totalSelectSeatNumber;
+}
+
 // set button background color
 function setBackgroundColorById(elementId) {
   const element = document.getElementById(elementId);
@@ -63,30 +80,3 @@ function grandTotalPrice(grandPrices, totalPrices) {
   totalGrandPriceElement.innerText = totalPrice;
 }
 
-// decrease total seat
-function totalSeatDecrease(elementId) {
-  let totalSeatDecrease = document.getElementById(elementId);
-  let totalSeatText = totalSeatDecrease.innerText;
-  let totalSeatNumber = parseInt(totalSeatText);
-  totalSeatNumber = totalSeatNumber - 1;
-  totalSeatDecrease.innerText = totalSeatNumber;
-}
-
-// increase select seat
-function increaseSelectSeat(elementId) {
-  let totalSelectSeat = document.getElementById(elementId);
-  let totalSelectSeatNumber = parseInt(totalSelectSeat.innerText);
-  totalSelectSeatNumber = totalSelectSeatNumber + 1;
-  totalSelectSeat.innerText = totalSelectSeatNumber;
-}
-
-// clear input field value
-function submitInformation() {
-  const number = document.getElementById("number-value");
-  const name = document.getElementById("name-value");
-  const email = document.getElementById("email-value");
-
-  number.value = "";
-  name.value = "";
-  email.value = "";
-}

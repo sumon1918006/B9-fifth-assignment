@@ -20,7 +20,7 @@ function selectSeat(event) {
     // call the function and append child
     appendNewChild("target-section", buttonText);
 
-    // Button background collor set
+    // Button background color set
     setBackgroundColorById(buttonText);
 
     // set total price
@@ -35,9 +35,6 @@ function selectSeat(event) {
     // increase select seat
     increaseSelectSeat("select-seat-number");
 
-    // Enable Net button
-    const submitInformation = document.getElementById("submit-information");
-    submitInformation.removeAttribute("disabled");
 
     //
   }
