@@ -1,5 +1,5 @@
-// click button to scrol the target section
-function scrol() {
+// click Buy ticket button to scroll the target section
+function scroll() {
     const targetSction = document.getElementById('main-part');
 
     // scroll to the target section
