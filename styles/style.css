@@ -1,22 +1,20 @@
-.common-button button{
-    font-weight: 600;
-    font-size: 18px;
-    padding: 0px 40px 0px 40px;
-    color: #7d7373;
-
+.common-button button {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0px 40px 0px 40px;
+  color: #7d7373;
 }
 
-.seat-number p{
-    color: #7d7373;
-    font-weight: 600;
-    font-size: 18px;
+.seat-number p {
+  color: #7d7373;
+  font-weight: 600;
+  font-size: 18px;
 }
-  
-  .inter-font {
-    font-family: "Inter", sans-serif;
-  }
-  
-  .releway-font {
-    font-family: "Raleway", sans-serif;
-  }
-  
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+.releway-font {
+  font-family: "Raleway", sans-serif;
+}
